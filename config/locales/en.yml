@@ -30,4 +30,18 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    attributes:
+      user:
+        email: 'Email'
+        name: 'Name'
+        password: 'Password'
+        password_confirmation: 'Password confirmation'
+    errors:
+      messages:
+        blank: 'cannot be blank'
+        invalid: 'invalid'
+        taken: 'already taken'
+        confirmation: 'is not equal. Type the same password'
+        too_long: 'too long. Max %{count} characters'
+        too_short: 'too short. At least %{count} characters'
